@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI</title>
+    <link rel="stylesheet" href="style4.css">
+    <script src="/TH2/BT4/script4.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <h1>Bài 4</h1>
+    <div class="container">
+        <div class="BMI">
+            <div class="title">
+                <h2>TÍNH CHỈ SỐ BMI</h2>
+            </div>
+            <div class="Cal-BMI">
+            <div class="input-group">
+                <label for="input-weight">Nhập cân nặng:</label> <br>
+                <input type="number" id="input-weight">
+            </div>
+            <div class="input-group">
+                <label for="input-height">Nhập chiều cao:</label> <br>
+                <input type="number" id="input-height">
+            </div>
+            <div class="input-group">
+                <label for="input-age">Chọn loại tuổi?</label> <br>
+                <select id="input-age" required>
+                    <option value="">Chọn loại tuổi?</option>
+                    <option value="">Trung niên</option>
+                    <option value="">Trung niên, già lớn tuổi</option>
+                    <option value="">Già, lớn tuổi</option>
+                </select>
+            </div>
+            </div>
+            <button class="nut" onclick="tinhBMI()">Tính BMI</button>
+            <h3>Kết quả:</h3>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+
+</body>

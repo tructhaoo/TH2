@@ -1,0 +1,77 @@
+
+        .container {
+            background-color: hsl(120, 56%, 91%);
+            width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px; 
+            box-shadow: 0 10px 10px hsl(120, 31%, 43%);;
+        }
+           
+        .text1 {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+       .text1 h1{
+            color:rgb(33, 178, 35);
+      
+       }
+       .text1 p{ 
+            font-size: 15px;
+       }
+        .column {
+            flex: 1;
+            padding: 10px 20px;    
+        }
+        .input-group {
+            margin-bottom: 10px;
+           
+        }
+
+        .input-group label {
+            display: inline-block;
+            width: 120px;
+            vertical-align: middle; 
+        }
+
+        .text {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;    
+            justify-content: space-around;
+            text-align:justify;
+    
+        }
+        
+        .input-group input,
+        .input-group select{
+            margin-top:10px;
+            width: 250px;
+            height:30px;
+            padding: 5px;
+            color:#706e6e;
+        }
+        #input-customer-type{
+            width: 266px;
+            height:43px;
+            padding: 5px;
+        }
+        .input-group textarea {
+            font-family:Arial, Helvetica, sans-serif;
+            margin-top:10px;
+            width: 535px;
+            height: 100px;
+            padding: 5px;
+        }
+        .nut {
+            background-color: #4CAF50;
+            color: white;
+            padding: 13px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 15px;
+            margin: 10px 100px 0 220px;
+        }
+  

@@ -1,0 +1,80 @@
+.container {
+    width: 800px;
+    height:800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: linear-gradient(109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%);
+}
+.BMI{
+    background-color:rgb(234, 234, 225);
+    width: 400px;
+    height:700px;
+    margin: 40px auto;
+    border-radius: 30px;
+}
+h1{
+     margin-left: 50px;
+}
+h3{
+    text-align: center;
+    font-size:30px;
+    color:rgb(39, 94, 244);
+}
+.title{
+    background-color:rgb(49, 49, 238);
+    height:70px;
+    padding:5px;
+    text-align:center;
+    color:azure; 
+    font-size:20px;
+    border-top-left-radius:30px ;
+    border-top-right-radius:30px ;
+}
+.Cal-BMI{
+    margin-top: 25px;
+}
+.input-group {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.input-group label {
+    margin-left:10px;
+    width: 90px;
+    font-size:25px;
+}
+
+.input-group input,
+.input-group select{
+    margin-left:10px;
+    width: 350px;
+    height:30px;
+    color:#706e6e;
+    font-size: 22px;
+}
+#input-age{
+    width: 360px;
+    height:40px;
+    padding: 5px;
+}
+.nut {
+    background-color: #1e91d9;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:10px;
+    margin-left: 130px;
+    font-size:20px;
+}
+.result{
+    text-align:center;
+    font-size:25px;
+    margin-top:-35px;
+    padding:15px;
+    color:rgb(240, 55, 55);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}

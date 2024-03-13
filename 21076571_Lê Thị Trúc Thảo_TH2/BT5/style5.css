@@ -1,0 +1,72 @@
+.login-container {
+    width: 350px;
+    height:180px;
+    padding: 20px;
+    background-color:rgb(32, 32, 32);
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align:center;
+  
+}
+
+.login-container h1 {
+    text-align: left;
+    margin-top: 10px;
+    color: #f8f8f9;
+}
+.column{
+    width:80%;
+    float:left;
+}
+.submit{
+    width:20%;
+    float:right;
+}
+
+.input-container {
+    position: relative; 
+}
+.input-container ::placeholder {
+    color:#f8f8f9;
+}
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin-left:13px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    border: none;
+    background-color:rgb(164, 164, 163) ;
+    color: #f8f3f3;
+}
+
+.input-container .icon {
+    position: absolute;
+    top: 50%;
+    padding-top: auto;
+    padding-left: auto;
+    right: 9px;
+    transform: translateY(-50%);
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+.submit button{
+    width:42px;
+    height:70px;
+    border-radius:5px;
+    margin-left: 10px;
+    background-color:#f70606d7;
+    cursor: pointer;
+}
+.submit button:hover {
+    background-color: #c00a0a;
+}
+
+.submit i{
+    transform: translateY(-50%);
+    font-size:22px;
+    padding-top: auto;
+    color:rgb(247, 247, 247);
+}
